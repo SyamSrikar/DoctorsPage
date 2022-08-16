@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3f93c08dd3.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left_half">
+            <div class="nav_image">
+                <img class="nav_image_img" src="navbar_image.jpg" alt="navbar image should be here">
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Lab Tests</a></li>
+                <li><a href="#">Pharmacy</a></li>
+            </ul>
+        </div>
+        <div class="right_half">
+            <div class="search_icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="profile_image">
+                <a href=""><img src="user.png" alt="" srcset=""></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="search_box">
+            <div class="location">
+                <div id="city_name">Location</div>
+            </div>
+            <div class="search">
+                <a href=""><i class="fas fa-search"></i></a>
+                <input type="text" class="input" placeholder="Search...">
+            </div>
+        </div>
+        <div class="doctors">
+            <div class="doctor">
+                <h2>Doctors</h2>
+            </div>
+            <div class="boxes">
+                <button class="button" id="doctor">
+                    <img src="doctor.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Doctors near you</div>
+                </button>
+                <button class="button" id="online">
+                    <img src="online.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Online Consultation</div>
+                </button>
+                <button class="button" id="specialist">
+                    <img src="doctor_all.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Looking for specialist</div>
+                </button>
+                <button class="button" id="ayurveda">
+                    <img src="doctor_all.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Ayurveda Doctors</div>
+                </button>
+                <button class="button" id="homeo">
+                    <img src="doctor_all.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Homeopathy Doctors</div>
+                </button>
+                <button class="button" id="dietitian">
+                    <img src="doctor_all.jpg" alt="doctor image" width="120px" height="110px">
+                    <div>Dietitian</div>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
